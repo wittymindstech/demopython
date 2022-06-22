@@ -39,7 +39,7 @@ jobs:
           # This assumes pytest is installed via the install-package step above
           command: |
             python test.py
-            python test1.py 
+            python test1.py 1 2
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
